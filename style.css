@@ -5,8 +5,9 @@ body{
     font-family: sans-serif;
 }
 .form-container-1{
-    width: 30%;
-    margin: 60px auto; 
+    margin: auto;
+    width: 90%;
+    max-width: 400px; 
 }
 .form-container-1 h2{
     margin-bottom: 10px;
@@ -37,6 +38,9 @@ body{
     padding: 14px 16px;
     width: 330px;
     margin-left: 23.1px;
+}
+.inputs-container{
+    margin: auto;
 }
 .form form .input-login{
     cursor: pointer;
