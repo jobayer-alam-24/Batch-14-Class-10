@@ -278,6 +278,76 @@ body{
     text-decoration: none;
     color: rgb(136, 130, 130);
 }
+.center{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #1982be;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.425), 0 8px 16px rgba(0, 0, 0, 0.411);
+}
 .end-navbar a:hover{
     text-decoration: underline;
+}
+.re-h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.re-s{
+    text-decoration: underline rgb(109, 255, 231);
+}
+.form-inputs input[type="text"],
+.form-inputs input[type="email"],
+.form-inputs input[type="password"],
+.form-inputs input[type="button"]{
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.ender{
+    margin-top: 30px;
+    transition: 0.2s;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+    background-color: #b6c211;
+    width: 90%;
+    margin-left: 28px;
+    padding: 10px 16px;
+}
+.end-con {
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.42857;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.733);
+}
+.ending a{
+    color: rgb(184, 196, 15);
+}
+.regis{
+    border-radius: 5px !important;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    border: none;
+    width: 90%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+    background-color: #166FE5;
+    padding: 12px 12px;
+    box-sizing: border-box;
 }
