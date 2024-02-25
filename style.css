@@ -351,3 +351,120 @@ body{
     padding: 12px 12px;
     box-sizing: border-box;
 }
+/* Problems starts here  */
+.bd-login-form-container{
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 90%;
+    max-width: 1700px;
+    margin: auto;
+}
+.logo{
+    float: left;
+}
+.header-container{
+    background-color: #5cb85c;
+    padding: 8px 5px;
+    border-radius: 10px;
+}
+.lock-para{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: bold;
+    margin-top: 15px;
+}
+.login-form-container{
+    margin-top: 16px;
+    text-align: center;
+}
+.form-section{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+.up{
+    margin-left: 20px;
+}
+.f-f{
+    margin-bottom: 25px;
+}
+.input-fields{
+    width: 35%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.cs{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #555;
+}
+.sb{
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    border: 1px solid green;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 5px;
+    background-color: #5cb85c;
+}
+.bd-logo{
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 90px;
+}
+.sb:hover{
+    opacity: 0.8;
+}
+.form-link{
+    color: rgba(0, 0, 255, 0.671);
+    text-decoration: none;    
+}
+.form-link:hover{
+    text-decoration: underline;
+    color: #2574b9;
+}
+.head-description{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+.p-by{
+    margin-bottom: 4px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: column;
+    background-color: #5cb85c;
+    padding: 8px 5px;
+    border-radius: 10px;
+    height: 120px;
+    background-color: #928f8f5b;
+}
+.footer p{
+    color: #555;
+    font-size: 0.9rem;
+}
