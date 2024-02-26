@@ -327,6 +327,9 @@ body{
     margin-left: 28px;
     padding: 10px 16px;
 }
+.ender:hover{
+    opacity: 0.8;
+}
 .end-con {
     text-align: left;
     font-size: 1.1rem;
@@ -351,7 +354,6 @@ body{
     padding: 12px 12px;
     box-sizing: border-box;
 }
-/* Problems starts here  */
 .bd-login-form-container{
     font-family: Helvetica, sans-serif;
     background-color: white;
@@ -467,4 +469,111 @@ body{
 .footer p{
     color: #555;
     font-size: 0.9rem;
+}
+.form-container-4{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    background: linear-gradient(to right, #8a138a, #263c78);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.425), 0 8px 16px rgba(0, 0, 0, 0.411);
+}
+.form-sec{
+    width: 85%;
+    margin: auto;
+}
+.form-sec form{
+    position: relative;
+}
+.user{
+    position: absolute;
+    top: 1%;
+    left: -2%;
+}
+.lock{
+    position: absolute;
+    top: 25%;
+    left: -2%;
+}
+.globe{
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 15px;
+    color: black;
+    border-radius: 50%;
+    background-color: white;
+}
+.sec-top{
+    margin-bottom: 25px;
+}
+.sec-bot{
+    margin-bottom: 35px;
+}
+.user, .fa-lock{
+    font-size: 25px;
+}
+
+.inputs-sec{
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 25px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+input[type="checkbox"]{
+    position: absolute;
+    top: 45%;
+    left: -2%;
+}
+.checkbox{
+    font-size: 1.2rem;
+    margin-left: 25px;
+    margin-top: 0;
+}
+.inputs-sec:focus{
+    outline: none;
+}
+.img-icon-header{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.log-in{
+    border: none;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 160px;
+    background-color: white;
+    color: rgb(14, 76, 209);
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: up-down 1s infinite  alternate;
+}
+
+@keyframes up-down {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.log-in:hover{
+    animation-play-state: paused;
+}
+.f-pass{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 132px;
+}
+.f-pass:hover{
+    text-decoration: underline;
+}
+.log-in:hover{
+    cursor: pointer;
+    background-color: rgb(219, 17, 152);
+    color: rgba(255, 255, 255, 0.637);
 }
